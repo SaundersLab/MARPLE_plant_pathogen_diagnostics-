@@ -30,13 +30,13 @@ echo -e "[1m[4mMAPPING IS DONE$SET"
 
 #SNP calling
 samtools mpileup -BQ 0 -x -d 200000 -aa -f $fastafile $bamfile > $bamfile.mpileup
-cat $bamfile.mpileup | ./compsnps_pipe1_sampileup.py > $bamfile.mpileup.snp_ratios.txt
+cat $bamfile.mpileup | python compsnps_pipe1_sampileup.py > $bamfile.mpileup.snp_ratios.txt
 
 echo -e "[1m[4mSNP CALLING IS DONE$SET"
 
 #Get fasta file from SNP called mpileup files
 #Usage: ./mpileup_to_fasta.py SNP_ratios_file Coverage_cutoff Allele_freq_cutoff
-./mpileup_to_fasta.py $bamfile.mpileup.snp_ratios.txt 20 0.25
+python mpileup_to_fasta.py $bamfile.mpileup.snp_ratios.txt 20 0.25
 
 echo -e "[1m[4mPRELIMINARY FASTA IS READY$SET"
 
