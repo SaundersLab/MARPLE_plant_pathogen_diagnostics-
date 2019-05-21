@@ -1,5 +1,3 @@
-#!/usr/bin/python
-#encoding: utf-8
 """
 Created on Tue Nov 20 12:53:43 2012
 
