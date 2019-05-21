@@ -27,5 +27,5 @@ conda install -c bioconda cufflinks=2.2.1 seqkit=0.9.1 emboss=6.5.7 samtools=1.7
 With the above prerequisites installed, and this repository cloned into the folder where you want to run the analysis or by adding where the repository has been cloned into your PATH variable, run the marple_pipeline.sh script in the following format (using basecalled fastq file for a single sample as input): 
 
 ``
-marple_pipeline.sh $fastq_file
+bash marple_pipeline.sh $fastq_file
 ``
