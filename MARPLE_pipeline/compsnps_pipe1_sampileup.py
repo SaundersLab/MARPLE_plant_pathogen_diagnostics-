@@ -80,7 +80,7 @@ for pileup in sys.stdin:
     p = PileUp(pileup)
     (chr,position,ref,depth,nucleotide,ratio) = p.is_a_snp()
         
-    print chr+"\t"+position+"\t"+ref+"\t"+depth+"\t"+nucleotide+"\t",ratio;
+    print(chr+"\t"+position+"\t"+ref+"\t"+depth+"\t"+nucleotide+"\t",ratio)
         
         
         
