@@ -3,7 +3,7 @@
 #arguments
 fastafile=$2
 fastqfile=$1
-gff_file=final_poolD_genes.gff3
+gff_file=$3
 samfile=$fastqfile.$fastafile.sam
 bamfile=$samfile.bam
 SET='\033[0m'
