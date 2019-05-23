@@ -65,7 +65,7 @@ class PileUp:
         nucleotide=[]
         depth=[]
         
-        for b,d in base.iteritems():
+        for b,d in base.items():
             
             if int(d)>0:
                 ratio=float(d)/float(self.depth)
