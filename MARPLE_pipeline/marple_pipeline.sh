@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #arguments
-fastafile=final_poolD_genes.fasta
+fastafile=$2
 fastqfile=$1
 gff_file=final_poolD_genes.gff3
 samfile=$fastqfile.$fastafile.sam
