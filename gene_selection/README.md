@@ -7,7 +7,7 @@ RAxML-8.0.12
 ```
 ### Protocol
 
-Consensus CDS sequences for each RNAseq/genomic dataset were obtained as previously described (Bueno-Sancho et al. 2017) and placed in the folder where you will run these scripts
+Consensus CDS sequences for each RNAseq/genomic dataset will need to be obtained as previously described (Bueno-Sancho et al. 2017) and placed in the folder where you will run these scripts.
 
 These consensus sequence files were then filtered for coverage of greater than 60% in each sample and in each gene
 ```
