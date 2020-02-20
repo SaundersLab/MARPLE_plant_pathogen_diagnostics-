@@ -4,7 +4,7 @@ Scripts for realtime surveillance of plant pathogens using the MinION sequencer 
 
 ## Prerequisites
 ``` 
-python3
+python3 (scripts were developed using python-3.6.3)
 biopython==1.65
 cufflinks==2.2.1
 seqkit==0.9.1
